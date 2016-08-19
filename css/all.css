@@ -1342,7 +1342,7 @@ textarea:focus {
   .header__hamburger.hamburger {
     display: inline-block; } }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 770px) {
   .header__list {
     display: block !important; } }
 
@@ -1494,13 +1494,13 @@ textarea:focus {
 
 @media screen and (max-width: 768px) {
   .about__img {
-    margin-bottom: 30px; }
-  .about__description {
-    text-align: center; } }
+    margin-bottom: 30px; } }
 
 @media screen and (max-width: 500px) {
   .about__contact-box {
-    text-align: center; } }
+    text-align: center; }
+  .about__description:first-letter {
+    padding-left: 50px; } }
 
 .anchor {
   position: absolute;
