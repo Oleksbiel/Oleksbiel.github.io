@@ -1463,7 +1463,8 @@ textarea:focus {
   margin-top: 0; }
 
 .about__description {
-  line-height: 25px; }
+  line-height: 25px;
+  text-align: justify; }
   .about__description--mg-bot {
     margin-bottom: 40px; }
   .about__description:first-letter {
